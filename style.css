@@ -1,0 +1,79 @@
+html,body{
+
+    width: 1900px;
+    height: 850px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Header{
+    width: 1920px;
+    height: 100px;
+    background-color: rgb(29, 29, 138);
+}
+.font{
+    font-size: 70px;
+    font-family: 'Anton', sans-serif;
+    color: white;
+    text-decoration: none;
+}
+.but{
+    width: 50px;
+    height: 50px;
+    border: none;
+    padding-top: 5px;
+    justify-content: center;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    background: none;
+    cursor: pointer;
+    transform: translate(1830px, -55px);
+}
+.buts{
+    display: block;
+    width: 100%;
+    height: 3px;
+    border-radius: 5px;
+    background-color: white;
+}
+.but.pushed span{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.but.pushed.buts:first-child{
+    transform: rotate(90deg);
+}
+.but.pushed.buts:first-child{
+    transform: rotate(45deg);
+}
+.but.pushed.buts{
+    transform: rotate(-45deg);
+}
+.menu{
+    list-style-type: none;
+    height: 863px;
+    width: 370px;
+    background-color: black;
+    transform: translate(1510px, -16px);
+}
+.menubut{
+     margin: 0;
+     padding: 0;
+    transform: translate(-30px, 200px);
+     width: 370px;
+     height: 80px;
+     background: black;
+     border: black;
+}
+.menubut:hover{
+    background: blue;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 50px;
+}
