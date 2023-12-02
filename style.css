@@ -5,6 +5,10 @@ html,body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-image: url(img.jpg);
+    background-repeat: no-repeat;
+    background-size: 110%;
+    
 }
 
 .Header{
@@ -53,12 +57,34 @@ html,body{
 .but.pushed.buts{
     transform: rotate(-45deg);
 }
-.menu{
+.Slov{
+    width: 400px;
+    height: 60px;
+    font-size: 60px;
+    color: aliceblue;
+    font-family: 'Nova Square', sans-serif;
+    transform: translate(820px, 300px);
+}
+.Lob{
+    width: 400px;
+    height: 60px;
+    font-size: 35px;
+    color: rgb(14, 187, 14);
+    transform: translate(820px, 350px);
+}
+.youtube{
+    width: 100px;
+    height: 100px;
+    font-size: 70px;
+    text-decoration: none;
+}
+/*.menu{
     list-style-type: none;
     height: 863px;
     width: 370px;
     background-color: black;
     transform: translate(1510px, -16px);
+    opacity: 0%;
 }
 .menubut{
      margin: 0;
@@ -77,3 +103,11 @@ a{
     color: white;
     font-size: 50px;
 }
+!КУСОК КОДА ИЗ HTML
+ <ul class="menu">
+            <li class="menubut"><a href="">Главная</a></li>
+            <li class="menubut"><a href="">Проекты</a></li>
+            <li class="menubut"><a href="">Обо мне</a></li>
+            <li class="menubut"><a href="">Контакты</a></li>
+        </ul>
+*/
