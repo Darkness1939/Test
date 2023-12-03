@@ -5,10 +5,6 @@ html,body{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-image: url(img.jpg);
-    background-repeat: no-repeat;
-    background-size: 115%;
-    
 }
 
 .Header{
@@ -57,31 +53,7 @@ html,body{
 .but.pushed.buts{
     transform: rotate(-45deg);
 }
-.Slov{
-    width: 400px;
-    height: 60px;
-    font-size: 60px;
-    color: aliceblue;
-    font-family: 'Nova Square', sans-serif;
-    transform: translate(820px, -550px);
-}
-.Lob{
-    width: 400px;
-    height: 60px;
-    font-size: 35px;
-    color: rgb(14, 187, 14);
-    transform: translate(820px, -490px);
-}
-.youtube{
-    font-size: 70px;
-    text-decoration: none;
-    
-}
-.blik{
-     width: 100px;
-    height: 100px;
-    transform: translate( 950px,-400px);
-}
+
 .menu{
     list-style-type: none;
     height: 850px;
@@ -106,4 +78,59 @@ a{
     text-decoration: none;
     color: white;
     font-size: 50px;
+}
+.Projects{
+    width: 750px;
+    height: 450px;
+    border: black solid 3px;
+    border-radius: 5%;
+    transform: translate(500px, -700px);
+}
+.Project{
+    font-size: 40px;
+    margin-top: 50px;
+    margin-left: -20px;
+    width: 720px;
+    border: black solid 3px;
+    list-style-position: inside;
+}
+.yes{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+}
+#f{
+transform: translateX(400px);
+}
+#s{
+    transform: translateX(430px);
+}
+#t{
+    transform: translateX(390px);
+}
+.no{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+}
+.Dobav{
+    display: flex;
+    transform: translateX(100px);
+    width: 600px;
+    height: 40px;
+    border-radius: 16px;
+    background: black;
+}
+input{
+    width: 400px;
+    height: 35px;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius:  16px;
+}
+.enter{
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+    background: blue;
+    width: 200px;
+    height: 40px;
 }
