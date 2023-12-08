@@ -98,15 +98,7 @@ a{
     width: 30px;
     height: 30px;
     background-color: green;
-}
-#f{
-transform: translateX(400px);
-}
-#s{
-    transform: translateX(430px);
-}
-#t{
-    transform: translateX(390px);
+    
 }
 .no{
     width: 30px;

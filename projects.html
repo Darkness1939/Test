@@ -25,14 +25,14 @@
     </ul>
     <div class="Projects">
         <h1>Список задач</h1>
-        <ol class="Tusk">
-            <li class="Project">Проснуться <button class="yes" id="f"></button><button class="no" id="f"></button></li>
-            <li class="Project">Покушать <button class="yes" id="s"></button><button class="no" id="s"></button></li>
-            <li class="Project">Пойти спать <button class="yes" id="t"></button><button class="no" id="t"></button></li>
+        <ol id="Tusk">
+            <li class="Project"><b>Проснуться</b> <button class="yes"></button><button class="no"></button></li>
+            <li class="Project"><b>Покушать</b> <button class="yes"></button><button class="no"></button></li>
+            <li class="Project"><b>Пойти спать</b> <button class="yes"></button><button class="no"></button></li>
         </ol>
         <div class="Dobav">
             <input type="text">
-            <button class="enter"></button>
+            <button class="enter" onclick="addTusk(event)"></button>
         </div>
     </div>
 </body>
