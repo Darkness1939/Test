@@ -80,8 +80,11 @@ a{
     font-size: 50px;
 }
 .Projects{
+    display: flex;
+    flex-direction: column;
     width: 750px;
-    height: 450px;
+    align-items: center;
+    justify-content: center;
     border: black solid 3px;
     border-radius: 5%;
     transform: translate(500px, -700px);
@@ -93,12 +96,13 @@ a{
     width: 720px;
     border: black solid 3px;
     list-style-position: inside;
+    display: flex;
+    justify-content: space-between;
 }
 .yes{
     width: 30px;
     height: 30px;
-    background-color: green;
-    
+    background-color: green;    
 }
 .no{
     width: 30px;
@@ -107,7 +111,6 @@ a{
 }
 .Dobav{
     display: flex;
-    transform: translateX(100px);
     width: 600px;
     height: 40px;
     border-radius: 16px;

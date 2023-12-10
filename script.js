@@ -1,6 +1,6 @@
 /*let but = document.querySelector("but");
 if(but){
-    but.addEventListener("click", (e) => {
+ but.addEventListener("click", (e) => {
     if(but.classList.contains("pushed"))
     {
     but.classList.remove("pushed");
@@ -19,10 +19,10 @@ Tusk=document.getElementById("Tusk");
 Tusk.insertAdjacentHTML("Beforeend", 
 `<li class = "Project">
  <b>${input.value}</b>
+ <div>
  <button class = "yes"></button>
  <button class = "no"></button>
+ </div>
  </li>`)
  input.value="";
 }
-
-
